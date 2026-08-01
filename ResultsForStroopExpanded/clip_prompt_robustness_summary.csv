@@ -1,0 +1,7 @@
+prompt_key,prompt_template,overall_accuracy,congruent_accuracy,incongruent_accuracy,neutral_accuracy,background_conflict_accuracy,incongruent_word_bias_rate,background_conflict_word_bias_rate
+ambiguous_written_in,the text is written in {},0.44515,1.0,0.0312,0.7354,0.014,0.9688,0.9518
+font_color,the font color is {},0.47805,1.0,0.0724,0.8072,0.0326,0.9276,0.928
+ink_color,the ink color of the text is {},0.48765,1.0,0.095,0.7982,0.0574,0.905,0.8592
+letters_color,letters written in {} color,0.4505,1.0,0.0106,0.7876,0.0038,0.9894,0.9856
+minimal_control,{},0.4358,1.0,0.0004,0.7412,0.0016,0.9996,0.9942
+word_oriented_control,"a photo of the word ""{}""",0.43545,1.0,0.0,0.7418,0.0,1.0,1.0
