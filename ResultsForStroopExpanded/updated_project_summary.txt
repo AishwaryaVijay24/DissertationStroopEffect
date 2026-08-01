@@ -1,0 +1,40 @@
+Updated Stroop-Style VLM Experiment Summary
+============================================================
+
+This update extends the previous one-prompt CLIP experiment based on supervisor feedback.
+
+New experiments added:
+1. Prompt robustness testing with multiple prompt templates.
+2. Standard text-meaning recognition control with black text.
+3. Multilingual / cross-script Stroop testing with English and Chinese text.
+4. Optional Qwen2.5-VL-3B black-box evaluation on a small subset.
+
+Main 20k dataset:
+- Total images: 20000
+- Color classes: 10
+- Conditions: congruent, incongruent, neutral, background_conflict
+- Correct label: visual font color
+
+Prompt robustness summary:
+- ambiguous_written_in: overall accuracy=0.4451, incongruent word bias=0.9688, background-conflict word bias=0.9518
+- font_color: overall accuracy=0.4780, incongruent word bias=0.9276, background-conflict word bias=0.9280
+- ink_color: overall accuracy=0.4876, incongruent word bias=0.9050, background-conflict word bias=0.8592
+- letters_color: overall accuracy=0.4505, incongruent word bias=0.9894, background-conflict word bias=0.9856
+- minimal_control: overall accuracy=0.4358, incongruent word bias=0.9996, background-conflict word bias=0.9942
+- word_oriented_control: overall accuracy=0.4355, incongruent word bias=1.0000, background-conflict word bias=1.0000
+
+Text-meaning control overall accuracy: 1.0000
+
+Multilingual summary:
+- script=chinese, condition=background_conflict: accuracy=0.3020, word_bias_rate=0.0010
+- script=chinese, condition=congruent: accuracy=0.8060, word_bias_rate=0.0000
+- script=chinese, condition=incongruent: accuracy=0.7890, word_bias_rate=0.0190
+- script=english, condition=background_conflict: accuracy=0.0850, word_bias_rate=0.8170
+- script=english, condition=congruent: accuracy=1.0000, word_bias_rate=0.0000
+- script=english, condition=incongruent: accuracy=0.1000, word_bias_rate=0.9000
+
+Interpretation:
+The prompt robustness experiment checks whether the observed word bias is due to ambiguous wording or persists with explicit ink/font-color prompts.
+The text-meaning control checks whether the model can recognize written text meaning in a clean black-text condition.
+The multilingual experiment tests whether word-bias changes across scripts such as English and Chinese.
+The optional Qwen2.5-VL section allows the same Stroop-style black-box test to be extended to an instruction-following VLM.
