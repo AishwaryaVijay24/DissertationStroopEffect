@@ -1,7 +1,0 @@
-script,condition,accuracy,word_bias_rate,background_bias_rate,other_error_rate
-chinese,background_conflict,0.302,0.001,0.68,0.017
-chinese,congruent,0.806,0.0,0.087,0.107
-chinese,incongruent,0.789,0.019,0.088,0.104
-english,background_conflict,0.085,0.817,0.098,0.0
-english,congruent,1.0,0.0,0.0,0.0
-english,incongruent,0.1,0.9,0.0,0.0
