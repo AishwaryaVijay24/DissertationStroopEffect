@@ -1,0 +1,5 @@
+whitebox_group,condition,error_type,mean_score,mean_text_energy_share,mean_text_area_share,mean_text_enrichment
+background_conflict_word_bias,background_conflict,word_bias,0.27587890625,0.30352378636598587,0.07144185799319729,4.613342586987089
+congruent_correct,congruent,correct_font_color,0.288818359375,0.08665594396491845,0.060985331632653066,1.331610092030248
+incongruent_word_bias,incongruent,word_bias,0.28564453125,0.05579781159758568,0.0645328443877551,0.8657195068838552
+neutral_correct,neutral,correct_font_color,0.24088541666666666,0.05059065173069636,0.06373565051020408,0.7700904939885275

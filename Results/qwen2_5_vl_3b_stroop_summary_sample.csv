@@ -1,0 +1,5 @@
+condition,accuracy,word_bias_rate,background_bias_rate,other_error_rate
+background_conflict,1.0,0.0,0.0,0.0
+congruent,1.0,0.0,0.0,0.0
+incongruent,0.88,0.12,0.0,0.0
+neutral,1.0,0.0,0.0,0.0
