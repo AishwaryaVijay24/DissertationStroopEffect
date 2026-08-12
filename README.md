@@ -86,22 +86,24 @@ red, blue, green, yellow, orange, purple, brown, gray, black, white
 ```text
 DissertationStroopEffect/
 ├── README.md
-├── Expanded_Multilingual_Stroop_VLM_Benchmark_Colab.ipynb
-├── paper/
-│   ├── dissertation_paper.pdf
-│   └── dissertation_paper.tex
-├── results/
-│   ├── clip_main_english_summary.csv
-│   ├── clip_prompt_robustness_summary.csv
-│   ├── clip_text_meaning_summary.csv
-│   ├── clip_multilingual_stroop_summary.csv
-│   ├── qwen2_5_vl_summary.csv
-│   └── heatmap_metrics.csv
-└── figures/
-    ├── prompt_robustness_word_bias_by_prompt.png
+├── .gitignore
+├── Stroop_VLM_Benchmark_Colab.ipynb
+├── Paper Draft and Final/
+│   ├── Dissertation Draft1.pdf
+│   └── Dissertation Final Draft Before Approval.pdf
+└── Results/
+    ├── clip_multilingual_stroop_predictions.csv
+    ├── clip_multilingual_summary.csv
+    ├── clip_prompt_battery_predictions.csv
+    ├── clip_prompt_robustness_summary.csv
+    ├── clip_text_meaning_accuracy_by_type.csv
+    ├── clip_text_meaning_accuracy_by_word.csv
+    ├── clip_text_meaning_control_predictions.csv
     ├── cross_script_word_bias_plot.png
-    ├── clip_heatmaps/
-    └── qwen_heatmaps/
+    ├── prompt_robustness_word_bias_plot.png
+    ├── qwen2_5_vl_3b_stroop_predictions_sample.csv
+    ├── qwen2_5_vl_3b_stroop_summary_sample.csv
+    └── whitebox_heatmaps/
 ```
 
 Folder names may vary slightly depending on how the Colab outputs are exported.
