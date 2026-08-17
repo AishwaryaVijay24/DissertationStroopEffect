@@ -1,0 +1,17 @@
+eval_mode,language,word_category,num_images,accuracy
+english_semantic,arabic,color_word,2500,0.1084
+english_semantic,arabic,neutral_word,2500,0.0
+english_semantic,chinese,color_word,2500,0.1568
+english_semantic,chinese,neutral_word,2500,0.0
+english_semantic,english,color_word,2500,1.0
+english_semantic,english,neutral_word,2500,1.0
+english_semantic,hindi,color_word,2500,0.1
+english_semantic,hindi,neutral_word,2500,0.0
+script_match,arabic,color_word,2500,0.1
+script_match,arabic,neutral_word,2500,0.0
+script_match,chinese,color_word,2500,0.03
+script_match,chinese,neutral_word,2500,0.0052
+script_match,english,color_word,2500,1.0
+script_match,english,neutral_word,2500,1.0
+script_match,hindi,color_word,2500,0.0972
+script_match,hindi,neutral_word,2500,0.0028

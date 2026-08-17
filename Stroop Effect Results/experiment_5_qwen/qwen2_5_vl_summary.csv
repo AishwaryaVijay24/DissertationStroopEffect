@@ -1,0 +1,17 @@
+language,condition,num_images,accuracy,word_bias_rate,background_bias_rate,other_error_rate
+arabic,background_conflict,1000,0.691,0.029,0.024,0.256
+arabic,congruent,1000,0.988,0.0,0.0,0.012
+arabic,incongruent,1000,0.994,0.0,0.0,0.006
+arabic,neutral,1000,0.987,0.0,0.007,0.006
+chinese,background_conflict,1000,0.733,0.144,0.006,0.117
+chinese,congruent,1000,1.0,0.0,0.0,0.0
+chinese,incongruent,1000,0.978,0.022,0.0,0.0
+chinese,neutral,1000,1.0,0.0,0.0,0.0
+english,background_conflict,1000,0.933,0.048,0.0,0.019
+english,congruent,1000,1.0,0.0,0.0,0.0
+english,incongruent,1000,0.98,0.02,0.0,0.0
+english,neutral,1000,1.0,0.0,0.0,0.0
+hindi,background_conflict,1000,0.677,0.037,0.032,0.254
+hindi,congruent,1000,1.0,0.0,0.0,0.0
+hindi,incongruent,1000,1.0,0.0,0.0,0.0
+hindi,neutral,1000,1.0,0.0,0.0,0.0

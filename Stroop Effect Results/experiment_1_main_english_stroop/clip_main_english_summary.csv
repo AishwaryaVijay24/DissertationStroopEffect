@@ -1,0 +1,5 @@
+prompt_key,prompt_style,language,condition,num_images,accuracy,word_bias_rate,background_bias_rate,other_error_rate
+exact_ink_color,exact,english,background_conflict,10000,0.0523,0.8896,0.0581,0.0
+exact_ink_color,exact,english,congruent,10000,1.0,0.0,0.0,0.0
+exact_ink_color,exact,english,incongruent,10000,0.0828,0.9172,0.0,0.0
+exact_ink_color,exact,english,neutral,10000,0.7974,0.0,0.0237,0.1789

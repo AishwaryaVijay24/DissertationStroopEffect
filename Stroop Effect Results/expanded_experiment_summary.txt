@@ -1,0 +1,52 @@
+
+Expanded Stroop-VLM Benchmark Summary
+====================================
+
+Experiment scale: full
+
+Experiment 1: Main English Stroop
+---------------------------------
+Images: 40000
+Breakdown:
+- Congruent: 10000
+- Incongruent: 10000
+- Neutral: 10000
+- Background-conflict: 10000
+
+Experiment 2: Prompt Robustness
+-------------------------------
+Unique images: 40000
+Prompt templates: 12
+Prompt evaluations: 480000
+
+Prompt styles:
+- vague
+- ambiguous
+- exact
+- descriptive
+- control
+
+Experiment 3: Text-Meaning Recognition Control
+----------------------------------------------
+Images: 20000
+Languages: english, chinese, hindi, arabic
+Words per language: 20
+Samples per word: 250
+Setup: black text on white background
+
+Experiment 4: Multilingual Stroop
+---------------------------------
+Images: 80000
+Languages: english, chinese, hindi, arabic
+Conditions: congruent, incongruent, neutral, background_conflict
+Images per language-condition: 5000
+
+Experiment 5: Qwen/Llama Model Comparison
+-----------------------------------------
+Balanced subset per model: 16000
+Images per language-condition: 1000
+
+Experiment 6: Heatmaps
+----------------------
+CLIP: custom Grad-CAM-style heatmaps over visual patches.
+Qwen: optional attention-based visual token heatmaps.
